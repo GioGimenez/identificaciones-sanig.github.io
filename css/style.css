@@ -1,0 +1,136 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f8fc;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0b4f8a;
+color:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+}
+
+header img{
+width:90px;
+}
+
+.titulo{
+text-align:center;
+}
+
+.titulo h1{
+font-size:32px;
+}
+
+.titulo h2{
+font-size:20px;
+font-weight:400;
+}
+
+nav{
+background:#ffffff;
+box-shadow:0 2px 6px rgba(0,0,0,.1);
+position:sticky;
+top:0;
+z-index:999;
+}
+
+nav ul{
+display:flex;
+justify-content:center;
+list-style:none;
+}
+
+nav li{
+margin:15px;
+}
+
+nav a{
+text-decoration:none;
+color:#0b4f8a;
+font-weight:600;
+}
+
+nav a:hover{
+color:#2196f3;
+}
+
+.banner{
+height:500px;
+background:linear-gradient(rgba(11,79,138,.7),rgba(11,79,138,.7)),url('../img/banner.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.banner-texto{
+max-width:800px;
+}
+
+.banner h2{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.banner p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.boton{
+background:#ffffff;
+color:#0b4f8a;
+padding:15px 30px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.boton:hover{
+background:#dbeeff;
+}
+
+section{
+padding:70px 10%;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+header img{
+width:70px;
+margin:10px;
+}
+
+nav ul{
+flex-wrap:wrap;
+}
+
+.banner h2{
+font-size:34px;
+}
+
+.banner p{
+font-size:18px;
+}
+
+}
