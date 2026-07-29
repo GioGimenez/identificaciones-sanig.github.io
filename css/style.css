@@ -134,3 +134,52 @@ font-size:18px;
 }
 
 }
+.info-grid,
+.servicios{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+margin-top:35px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.card h3{
+color:#0b4f8a;
+margin-bottom:15px;
+}
+
+section h2{
+text-align:center;
+color:#0b4f8a;
+margin-bottom:25px;
+font-size:32px;
+}
+
+.noticia img{
+margin-top:20px;
+border-radius:10px;
+}
+
+footer{
+background:#0b4f8a;
+color:white;
+text-align:center;
+padding:40px 20px;
+margin-top:60px;
+}
+
+footer p{
+margin:8px 0;
+}
