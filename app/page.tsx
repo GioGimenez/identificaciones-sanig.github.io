@@ -231,6 +231,16 @@ export default async function Home() {
             Oficina Regional del Departamento de Identificaciones de San
             Ignacio, Misiones.
           </p>
+          <p className="section-link">
+            <a
+              className="button"
+              href="https://maps.app.goo.gl/zo1i8Z3WXWJ8LDju6"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver ubicación en Google Maps
+            </a>
+          </p>
         </section>
       </main>
 
