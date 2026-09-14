@@ -14,7 +14,6 @@ const menu = [
   ["Galería", "#galeria"],
   ["Ubicación", "#ubicacion"],
   ["Contacto", "#contacto"],
-  ["Iniciar sesión", "/admin/login"],
 ] as const;
 
 function formatFecha(fecha: string) {
@@ -99,6 +98,10 @@ export default async function Home() {
           ))}
         </ul>
       </nav>
+
+      <a className="floating-login" href="/admin/login">
+        Iniciar sesión
+      </a>
 
       <main>
         <section className="banner">

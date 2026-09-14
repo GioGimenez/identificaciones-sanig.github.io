@@ -108,16 +108,25 @@ a {
   color: var(--blue-light);
 }
 
-.site-nav a[href="/admin/login"] {
+.floating-login {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 20;
   display: inline-block;
-  padding: 8px 14px;
+  padding: 12px 18px;
   border-radius: 999px;
   background: var(--blue);
   color: var(--white);
+  box-shadow: 0 8px 20px rgba(7, 52, 93, 0.28);
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 
-.site-nav a[href="/admin/login"]:hover,
-.site-nav a[href="/admin/login"]:focus-visible {
+.floating-login:hover,
+.floating-login:focus-visible {
+  transform: translateY(-3px);
   background: var(--blue-dark);
   color: var(--white);
 }
