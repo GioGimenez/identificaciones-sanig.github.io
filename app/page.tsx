@@ -14,6 +14,7 @@ const menu = [
   ["Galería", "#galeria"],
   ["Ubicación", "#ubicacion"],
   ["Contacto", "#contacto"],
+  ["Iniciar sesión", "/admin/login"],
 ] as const;
 
 function formatFecha(fecha: string) {

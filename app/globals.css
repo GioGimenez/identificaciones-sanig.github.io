@@ -108,6 +108,20 @@ a {
   color: var(--blue-light);
 }
 
+.site-nav a[href="/admin/login"] {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.site-nav a[href="/admin/login"]:hover,
+.site-nav a[href="/admin/login"]:focus-visible {
+  background: var(--blue-dark);
+  color: var(--white);
+}
+
 .banner {
   display: flex;
   min-height: 500px;
