@@ -1,13 +1,22 @@
 # Plan de despliegue en Vercel
 
+## Estado actual
+
+- GitHub CLI y Vercel CLI están autenticadas.
+- El repositorio está publicado en `main`.
+- El proyecto quedó conectado a Vercel: `gyg-creaciones/identificaciones-sanig.github.io`.
+- Deployment de producción listo: https://identificaciones-saniggithubio.vercel.app
+- Las variables de Turso, Supabase y `SITE_URL` están configuradas en Production y Preview.
+- `ADMIN_PASSWORD` no se configuró en Vercel.
+
 ## Estado de las herramientas
 
 - El repositorio remoto está configurado en GitHub:
   https://github.com/GioGimenez/identificaciones-sanig.github.io
 - Vercel CLI está instalado localmente.
 - GitHub CLI está instalado localmente.
-- La autenticación de GitHub CLI todavía debe hacerse con gh auth login.
-- La autenticación de Vercel debe confirmarse con vercel login.
+- La autenticación de GitHub CLI fue confirmada con `gh auth status`.
+- La autenticación de Vercel fue confirmada con `vercel whoami`.
 
 ## Opción recomendada: Vercel conectado a GitHub
 

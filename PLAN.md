@@ -16,7 +16,7 @@
 - [x] Fase 3: integrar carga de imágenes al bucket images de Supabase.
 - [x] Fase 4: crear el panel administrativo para gestionar publicaciones.
 - [x] Fase 5: crear el blog público con listado y detalle por slug.
-- [ ] Fase 6: agregar validaciones, seguridad, pruebas y preparación para producción.
+- [x] Fase 6: agregar validaciones, seguridad, pruebas y preparación para producción.
 
 ## Fase 1: estructura de datos en Turso
 
@@ -85,4 +85,4 @@ Estado: completada. Se agregaron el listado, detalle por slug, metadatos, sitema
 - Probar el flujo completo en local y producción.
 - Documentar despliegue y mantenimiento.
 
-Estado: en progreso. Ya se agregaron validaciones de publicaciones, protección de rutas, limitación de intentos de login, cabeceras de seguridad, metadatos, sitemap y robots. El procedimiento de Vercel quedó documentado en DEPLOY_VERCEL.md. Falta ejecutar la autenticación de las CLIs y desplegar cuando se confirme la publicación.
+Estado: completada. Se agregaron validaciones de publicaciones, protección de rutas, limitación de intentos de login, cabeceras de seguridad, metadatos, sitemap y robots. El procedimiento de Vercel quedó documentado en DEPLOY_VERCEL.md. El código fue publicado en GitHub y el deployment de producción quedó listo en Vercel.
