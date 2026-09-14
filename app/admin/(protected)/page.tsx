@@ -17,6 +17,9 @@ export default async function AdminPage() {
           <p>Sesión iniciada como {user.email}</p>
         </div>
         <div className="admin-actions">
+          <Link href="/" className="button button-secondary">
+            Volver al sitio principal
+          </Link>
           <Link href="/admin/posts/new" className="button">
             Nueva publicación
           </Link>
